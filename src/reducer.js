@@ -3,8 +3,7 @@ export const initialState = {
   playlists: [],
   playing: false,
   item: null,
-  //token: null,
-  //remove after finishing developing and change it to null
+  token: null,
 };
 
 const reducer = (state, action) => {
