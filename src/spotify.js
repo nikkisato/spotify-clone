@@ -1,9 +1,7 @@
 require('dotenv').config();
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
-
 const redirectUri = 'http://localhost:3000/';
-
 const clientId = '9194676f57274835ac1ebb489bbf0d2f';
 
 const scopes = [
